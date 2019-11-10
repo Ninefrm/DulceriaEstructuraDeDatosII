@@ -44,8 +44,9 @@ void FuncionesOrdenesDeCompra::Agregar() {
 
 void FuncionesOrdenesDeCompra::Imprimir() {
     std::ifstream Archivo("Ordenes.txt");
+
     if(!Archivo.good()){
-        std::cout<<"ERROR.";
+        std::cout<<" Error.";
     }else{
         while (!Archivo.eof()){
             Archivo.read((char*)&Orden, sizeof(Orden));
@@ -55,7 +56,7 @@ void FuncionesOrdenesDeCompra::Imprimir() {
             std::cout<<"Cantidad: "<<Orden.getCantidadProducto()<<std::endl;
             std::cout<<"Precio: "<<Orden.getPrecioProducto()<<std::endl;
             std::cout<<"Total: "<<Orden.getTotalProducto()<<std::endl;
-            std::cout<<"Codigo Cliente: "<<Orden.getCodigoCliente()<<std::endl;
+            std::cout<<"Codigo ICCliente: "<<Orden.getCodigoCliente()<<std::endl;
             std::cout<<"Nombre cliente: "<<Orden.getNombreCliente()<<std::endl;
             std::cout<<"Codigo empleado: "<<Orden.getCodigoEmpleado()<<std::endl;
             std::cout<<"Nombre empleado: "<<Orden.getNombreEmpleado()<<std::endl;
@@ -83,7 +84,7 @@ void FuncionesOrdenesDeCompra::Buscar() {
                 std::cout<<"Cantidad: "<<Orden.getCantidadProducto()<<std::endl;
                 std::cout<<"Precio: "<<Orden.getPrecioProducto()<<std::endl;
                 std::cout<<"Total: "<<Orden.getTotalProducto()<<std::endl;
-                std::cout<<"Codigo Cliente: "<<Orden.getCodigoCliente()<<std::endl;
+                std::cout<<"Codigo ICCliente: "<<Orden.getCodigoCliente()<<std::endl;
                 std::cout<<"Nombre cliente: "<<Orden.getNombreCliente()<<std::endl;
                 std::cout<<"Codigo empleado: "<<Orden.getCodigoEmpleado()<<std::endl;
                 std::cout<<"Nombre empleado: "<<Orden.getNombreEmpleado()<<std::endl;

@@ -24,27 +24,33 @@ void ProveedorCD::ImprimirProveedores() {
     std::string Tmp;
 
     std::ifstream Read("Proveedor.txt");
-    if (!Read.good()) std::cout << "Error";
-    else
-        std::cout << "Nombre Proveedor		" << "Telefono		" << "Dirección		" << "Apellidos		" << "Nombre	" << std::endl;
-    while (!Read.eof()) {
-        getline(Read, Tmp, '#');
-        strcpy(NombreEmpresa, Tmp.c_str());
-        getline(Read, Tmp, '#');
-        strcpy(Telefono, Tmp.c_str());
-        getline(Read, Tmp, '#');
-        strcpy(Direccion,  Tmp.c_str());
-        getline(Read, Tmp, '#');
-        strcpy(Apellidos, Tmp.c_str());
-        getline(Read, Tmp, '#');
-        strcpy(Nombre, Tmp.c_str());
-        getline(Read, Tmp, '\n');
+    if (!Read.good()){
+        std::cout << "Error";
 
-        if (Read.eof())break;
+    }else{
+        std::cout << "Nombre Proveedor		" << "Telefono		" << "Dirección		" << "Apellidos		"
+                  << "Nombre	" << std::endl;
+        while (!Read.eof()) {
+            getline(Read, Tmp, '#');
+            strcpy(NombreEmpresa, Tmp.c_str());
+            getline(Read, Tmp, '#');
+            strcpy(Telefono, Tmp.c_str());
+            getline(Read, Tmp, '#');
+            strcpy(Direccion, Tmp.c_str());
+            getline(Read, Tmp, '#');
+            strcpy(Apellidos, Tmp.c_str());
+            getline(Read, Tmp, '#');
+            strcpy(Nombre, Tmp.c_str());
+            getline(Read, Tmp, '\n');
 
-            std::cout << NombreEmpresa << "		" << Telefono << "		" << Direccion << "		" << Apellidos << "		" << Nombre << std::endl;
+            if (Read.eof())break;
 
-    }Read.close();
+            std::cout << NombreEmpresa << "		" << Telefono << "		" << Direccion << "		" << Apellidos
+                      << "		" << Nombre << std::endl;
+
+        }
+        Read.close();
+    }
 }
 
 void ProveedorCD::BuscarProveedores() {
