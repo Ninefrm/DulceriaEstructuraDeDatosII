@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DulceriaEstructuraDeDatosII"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DulceriaEstructuraDeDatosII">
+				<Option output="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/DulceriaEstructuraDeDatosII.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 DulceriaEstructuraDeDatosII"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DulceriaEstructuraDeDatosII/fast">
+				<Option output="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/DulceriaEstructuraDeDatosII.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 DulceriaEstructuraDeDatosII/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/FuncionesOrdenesDeCompra.cpp">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/FuncionesOrdenesDeCompra.h">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/OrdenesDeCompraLF.cpp">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/OrdenesDeCompraLF.h">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/ProductoLV.cpp">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/ProductoLV.h">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/ProveedorCD.cpp">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/ProveedorCD.h">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/Prueba.cpp">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/main.cpp">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
