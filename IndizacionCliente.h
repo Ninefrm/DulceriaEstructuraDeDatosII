@@ -23,6 +23,15 @@ class IndizacionCliente {
     char Colonia[20];
     char Ciudad[20];
     char Estado[20];
+
+    char CCodigoCliente[30];
+    char CNombreCliente[30];
+    char CRFC[14];
+    char CDireccion[40];
+    char CColonia[20];
+    char CCiudad[20];
+    char CEstado[20];
+
     long int Pos=0;
     public:
     IndizacionCliente(){
@@ -33,6 +42,13 @@ class IndizacionCliente {
         std::memset(Colonia,'\0',20);
         std::memset(Ciudad,'\0',20);
         std::memset(Estado,'\0',20);
+        std::memset(CCodigoCliente,'\0',30);
+        std::memset(CNombreCliente,'\0',30);
+        std::memset(CRFC,'\0',14);
+        std::memset(CDireccion,'\0',40);
+        std::memset(CColonia,'\0',20);
+        std::memset(CCiudad,'\0',20);
+        std::memset(CEstado,'\0',20);
     }
     int Orden;
     void Agregar();

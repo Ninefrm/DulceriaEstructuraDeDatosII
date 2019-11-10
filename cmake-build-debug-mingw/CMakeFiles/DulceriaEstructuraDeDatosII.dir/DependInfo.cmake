@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/Cliente.cpp" "A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.obj"
   "A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/FuncionesOrdenesDeCompra.cpp" "A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/CMakeFiles/DulceriaEstructuraDeDatosII.dir/FuncionesOrdenesDeCompra.cpp.obj"
+  "A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/Indices.cpp" "A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.obj"
+  "A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/IndizacionCliente.cpp" "A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.obj"
   "A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/OrdenesDeCompraLF.cpp" "A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/CMakeFiles/DulceriaEstructuraDeDatosII.dir/OrdenesDeCompraLF.cpp.obj"
   "A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/ProductoLV.cpp" "A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/CMakeFiles/DulceriaEstructuraDeDatosII.dir/ProductoLV.cpp.obj"
   "A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/ProveedorCD.cpp" "A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cmake-build-debug-mingw/CMakeFiles/DulceriaEstructuraDeDatosII.dir/ProveedorCD.cpp.obj"

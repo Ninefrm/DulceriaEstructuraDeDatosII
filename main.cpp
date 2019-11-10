@@ -19,7 +19,6 @@ int main(){
 //A.Imprimir();
 //B.ImprimirProveedores();
 //W.Imprimir();
-
 //    IndizacionCliente *Ind = new IndizacionCliente();
 //
 //    Ind->Agregar();
@@ -28,18 +27,11 @@ int main(){
 //    Ind->Agregar();
 //    delete Ind;
 IndizacionCliente Ind;
+//
+//Ind.Agregar();
+//Ind.Imprimir_Clientes();
+//Ind.Modificar();
 
-//    Ind.Agregar();
-//    Ind.Agregar();
-    std::cout<<"-----";
-//    Ind = new IndizacionCliente();
-//    Ind->Imprimir_Indices();
-//    Ind->Buscar();
-//    delete Ind;
-//    Ind.Imprimir_Indices();
-//    std::cout<<"-----";
-//    Ind.Imprimir_Clientes();
-Ind.Buscar();
 
     return 0;
 }

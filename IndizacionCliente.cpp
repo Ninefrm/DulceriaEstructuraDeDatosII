@@ -134,3 +134,60 @@ void IndizacionCliente::Buscar() {
     }
     Indices.close();
 }
+
+void IndizacionCliente::Modificar() {
+    Cliente BCliente;
+    std::ifstream Indices("Indices.txt");
+    if(!Indices.good()){
+        std::cout<<"ERROR BUSCAR."<<std::endl;
+    }else{
+        std::cout<<"INGRESA RFC DEL CLIENTE: ";
+
+        std::cin.getline(RFC,14);
+        //std::cin.ignore();
+        std::cout<<RFC;
+        while (!Indices.eof()){
+            std::cout<<RFC;
+            Indices.read((char*)&Indice,sizeof(Indice));
+            std::cout << Indice.getPos() << std::endl;
+            if(Indices.eof())break;
+            std::cout<<RFC;
+            std::cout<<Indice.getRFC();
+            if(!strcmp(Indice.getRFC(), RFC)){
+                std::fstream Clientes("ICCliente.txt");
+                std::cout << "\nPOS: "<<Indice.getPos() << std::endl;
+                int Posicion = Indice.getPos();
+                Clientes.seekg(Posicion,std::ios::beg);
+                Clientes.read((char*)&BCliente, sizeof(BCliente));
+
+                std::cout<<"INGRESA CODIGO DEL CLIENTE: ";
+                std::cin.getline(CCodigoCliente,30);
+                std::cout<<"INGRESA NOMBRE DEL CLIENTE: ";
+                std::cin.getline(CNombreCliente,30);
+                std::cout<<"INGRESA DIRECCION DEL CLIENTE: ";
+                std::cin.getline(CDireccion,40);
+                std::cout<<"INGRESA COLONIA DEL CLIENTE: ";
+                std::cin.getline(CColonia,20);
+                std::cout<<"INGRESA CIUDAD DEL CLIENTE: ";
+                std::cin.getline(CCiudad,20);
+                std::cout<<"INGRESA ESTADO DEL CLIENTE: ";
+                std::cin.getline(CEstado,20);
+
+                BCliente.setCodigoCliente(CCodigoCliente);
+                BCliente.setNombreCliente(CNombreCliente);
+                BCliente.setRFC(RFC);
+                BCliente.setDireccion(CDireccion);
+                BCliente.setColonia(CColonia);
+                BCliente.setCiudad(CCiudad);
+                BCliente.setEstado(CEstado);
+                Clientes.seekp(Posicion);
+                Clientes.write((char*)&BCliente, sizeof(BCliente));
+                Clientes.close();
+                break;
+            }
+//            contador++;
+            //if(Indices.eof())break;
+        }
+    }
+    Indices.close();
+}

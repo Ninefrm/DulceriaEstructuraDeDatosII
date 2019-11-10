@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.obj"
   "CMakeFiles/DulceriaEstructuraDeDatosII.dir/FuncionesOrdenesDeCompra.cpp.obj"
+  "CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.obj"
+  "CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.obj"
   "CMakeFiles/DulceriaEstructuraDeDatosII.dir/OrdenesDeCompraLF.cpp.obj"
   "CMakeFiles/DulceriaEstructuraDeDatosII.dir/ProductoLV.cpp.obj"
   "CMakeFiles/DulceriaEstructuraDeDatosII.dir/ProveedorCD.cpp.obj"

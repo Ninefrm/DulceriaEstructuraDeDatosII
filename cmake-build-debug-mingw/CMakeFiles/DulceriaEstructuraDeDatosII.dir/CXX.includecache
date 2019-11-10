@@ -14,9 +14,43 @@ fstream
 cstring
 ../cstring
 
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/Cliente.h
+iostream
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/iostream
+fstream
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/fstream
+cstring
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cstring
+string.h
+-
+
 A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/FuncionesOrdenesDeCompra.h
 OrdenesDeCompraLF.h
 A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/OrdenesDeCompraLF.h
+
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/Indices.h
+iostream
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/iostream
+fstream
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/fstream
+cstring
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cstring
+string.h
+-
+
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/IndizacionCliente.h
+iostream
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/iostream
+fstream
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/fstream
+cstring
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/cstring
+Cliente.h
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/Cliente.h
+Indices.h
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/Indices.h
+string.h
+-
 
 A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/OrdenesDeCompraLF.h
 iostream
@@ -51,4 +85,6 @@ OrdenesDeCompraLF.h
 A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/OrdenesDeCompraLF.h
 FuncionesOrdenesDeCompra.h
 A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/FuncionesOrdenesDeCompra.h
+IndizacionCliente.h
+A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/IndizacionCliente.h
 

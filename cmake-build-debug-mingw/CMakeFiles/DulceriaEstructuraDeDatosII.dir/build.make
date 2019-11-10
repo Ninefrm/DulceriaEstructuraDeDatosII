@@ -140,6 +140,48 @@ CMakeFiles/DulceriaEstructuraDeDatosII.dir/Prueba.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DulceriaEstructuraDeDatosII.dir/Prueba.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\Prueba.cpp -o CMakeFiles\DulceriaEstructuraDeDatosII.dir\Prueba.cpp.s
 
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.obj: CMakeFiles/DulceriaEstructuraDeDatosII.dir/flags.make
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.obj: CMakeFiles/DulceriaEstructuraDeDatosII.dir/includes_CXX.rsp
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.obj: ../Cliente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DulceriaEstructuraDeDatosII.dir\Cliente.cpp.obj -c A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\Cliente.cpp
+
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\Cliente.cpp > CMakeFiles\DulceriaEstructuraDeDatosII.dir\Cliente.cpp.i
+
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\Cliente.cpp -o CMakeFiles\DulceriaEstructuraDeDatosII.dir\Cliente.cpp.s
+
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.obj: CMakeFiles/DulceriaEstructuraDeDatosII.dir/flags.make
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.obj: CMakeFiles/DulceriaEstructuraDeDatosII.dir/includes_CXX.rsp
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.obj: ../Indices.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DulceriaEstructuraDeDatosII.dir\Indices.cpp.obj -c A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\Indices.cpp
+
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\Indices.cpp > CMakeFiles\DulceriaEstructuraDeDatosII.dir\Indices.cpp.i
+
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\Indices.cpp -o CMakeFiles\DulceriaEstructuraDeDatosII.dir\Indices.cpp.s
+
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.obj: CMakeFiles/DulceriaEstructuraDeDatosII.dir/flags.make
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.obj: CMakeFiles/DulceriaEstructuraDeDatosII.dir/includes_CXX.rsp
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.obj: ../IndizacionCliente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DulceriaEstructuraDeDatosII.dir\IndizacionCliente.cpp.obj -c A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\IndizacionCliente.cpp
+
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\IndizacionCliente.cpp > CMakeFiles\DulceriaEstructuraDeDatosII.dir\IndizacionCliente.cpp.i
+
+CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\IndizacionCliente.cpp -o CMakeFiles\DulceriaEstructuraDeDatosII.dir\IndizacionCliente.cpp.s
+
 # Object files for target DulceriaEstructuraDeDatosII
 DulceriaEstructuraDeDatosII_OBJECTS = \
 "CMakeFiles/DulceriaEstructuraDeDatosII.dir/main.cpp.obj" \
@@ -147,7 +189,10 @@ DulceriaEstructuraDeDatosII_OBJECTS = \
 "CMakeFiles/DulceriaEstructuraDeDatosII.dir/ProveedorCD.cpp.obj" \
 "CMakeFiles/DulceriaEstructuraDeDatosII.dir/OrdenesDeCompraLF.cpp.obj" \
 "CMakeFiles/DulceriaEstructuraDeDatosII.dir/FuncionesOrdenesDeCompra.cpp.obj" \
-"CMakeFiles/DulceriaEstructuraDeDatosII.dir/Prueba.cpp.obj"
+"CMakeFiles/DulceriaEstructuraDeDatosII.dir/Prueba.cpp.obj" \
+"CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.obj" \
+"CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.obj" \
+"CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.obj"
 
 # External object files for target DulceriaEstructuraDeDatosII
 DulceriaEstructuraDeDatosII_EXTERNAL_OBJECTS =
@@ -158,11 +203,14 @@ DulceriaEstructuraDeDatosII.exe: CMakeFiles/DulceriaEstructuraDeDatosII.dir/Prov
 DulceriaEstructuraDeDatosII.exe: CMakeFiles/DulceriaEstructuraDeDatosII.dir/OrdenesDeCompraLF.cpp.obj
 DulceriaEstructuraDeDatosII.exe: CMakeFiles/DulceriaEstructuraDeDatosII.dir/FuncionesOrdenesDeCompra.cpp.obj
 DulceriaEstructuraDeDatosII.exe: CMakeFiles/DulceriaEstructuraDeDatosII.dir/Prueba.cpp.obj
+DulceriaEstructuraDeDatosII.exe: CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.obj
+DulceriaEstructuraDeDatosII.exe: CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.obj
+DulceriaEstructuraDeDatosII.exe: CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.obj
 DulceriaEstructuraDeDatosII.exe: CMakeFiles/DulceriaEstructuraDeDatosII.dir/build.make
 DulceriaEstructuraDeDatosII.exe: CMakeFiles/DulceriaEstructuraDeDatosII.dir/linklibs.rsp
 DulceriaEstructuraDeDatosII.exe: CMakeFiles/DulceriaEstructuraDeDatosII.dir/objects1.rsp
 DulceriaEstructuraDeDatosII.exe: CMakeFiles/DulceriaEstructuraDeDatosII.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable DulceriaEstructuraDeDatosII.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable DulceriaEstructuraDeDatosII.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DulceriaEstructuraDeDatosII.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

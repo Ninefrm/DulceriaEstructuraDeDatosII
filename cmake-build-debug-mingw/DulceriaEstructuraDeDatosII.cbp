@@ -82,10 +82,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/Cliente.cpp">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/Cliente.h">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
 		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/FuncionesOrdenesDeCompra.cpp">
 			<Option target="DulceriaEstructuraDeDatosII"/>
 		</Unit>
 		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/FuncionesOrdenesDeCompra.h">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/Indices.cpp">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/Indices.h">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/IndizacionCliente.cpp">
+			<Option target="DulceriaEstructuraDeDatosII"/>
+		</Unit>
+		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/IndizacionCliente.h">
 			<Option target="DulceriaEstructuraDeDatosII"/>
 		</Unit>
 		<Unit filename="A:/Ninefrm/Documents/GitKraken/DulceriaEstructuraDeDatosII/OrdenesDeCompraLF.cpp">

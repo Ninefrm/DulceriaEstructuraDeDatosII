@@ -73,12 +73,12 @@ preinstall:
 CMakeFiles/DulceriaEstructuraDeDatosII.dir/all:
 	$(MAKE) -f CMakeFiles\DulceriaEstructuraDeDatosII.dir\build.make CMakeFiles/DulceriaEstructuraDeDatosII.dir/depend
 	$(MAKE) -f CMakeFiles\DulceriaEstructuraDeDatosII.dir\build.make CMakeFiles/DulceriaEstructuraDeDatosII.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\cmake-build-debug-mingw\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target DulceriaEstructuraDeDatosII"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\cmake-build-debug-mingw\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target DulceriaEstructuraDeDatosII"
 .PHONY : CMakeFiles/DulceriaEstructuraDeDatosII.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DulceriaEstructuraDeDatosII.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\cmake-build-debug-mingw\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\cmake-build-debug-mingw\CMakeFiles 10
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/DulceriaEstructuraDeDatosII.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start A:\Ninefrm\Documents\GitKraken\DulceriaEstructuraDeDatosII\cmake-build-debug-mingw\CMakeFiles 0
 .PHONY : CMakeFiles/DulceriaEstructuraDeDatosII.dir/rule

@@ -122,6 +122,33 @@ DulceriaEstructuraDeDatosII/fast:
 	$(MAKE) -f CMakeFiles\DulceriaEstructuraDeDatosII.dir\build.make CMakeFiles/DulceriaEstructuraDeDatosII.dir/build
 .PHONY : DulceriaEstructuraDeDatosII/fast
 
+Cliente.obj: Cliente.cpp.obj
+
+.PHONY : Cliente.obj
+
+# target to build an object file
+Cliente.cpp.obj:
+	$(MAKE) -f CMakeFiles\DulceriaEstructuraDeDatosII.dir\build.make CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.obj
+.PHONY : Cliente.cpp.obj
+
+Cliente.i: Cliente.cpp.i
+
+.PHONY : Cliente.i
+
+# target to preprocess a source file
+Cliente.cpp.i:
+	$(MAKE) -f CMakeFiles\DulceriaEstructuraDeDatosII.dir\build.make CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.i
+.PHONY : Cliente.cpp.i
+
+Cliente.s: Cliente.cpp.s
+
+.PHONY : Cliente.s
+
+# target to generate assembly for a file
+Cliente.cpp.s:
+	$(MAKE) -f CMakeFiles\DulceriaEstructuraDeDatosII.dir\build.make CMakeFiles/DulceriaEstructuraDeDatosII.dir/Cliente.cpp.s
+.PHONY : Cliente.cpp.s
+
 FuncionesOrdenesDeCompra.obj: FuncionesOrdenesDeCompra.cpp.obj
 
 .PHONY : FuncionesOrdenesDeCompra.obj
@@ -148,6 +175,60 @@ FuncionesOrdenesDeCompra.s: FuncionesOrdenesDeCompra.cpp.s
 FuncionesOrdenesDeCompra.cpp.s:
 	$(MAKE) -f CMakeFiles\DulceriaEstructuraDeDatosII.dir\build.make CMakeFiles/DulceriaEstructuraDeDatosII.dir/FuncionesOrdenesDeCompra.cpp.s
 .PHONY : FuncionesOrdenesDeCompra.cpp.s
+
+Indices.obj: Indices.cpp.obj
+
+.PHONY : Indices.obj
+
+# target to build an object file
+Indices.cpp.obj:
+	$(MAKE) -f CMakeFiles\DulceriaEstructuraDeDatosII.dir\build.make CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.obj
+.PHONY : Indices.cpp.obj
+
+Indices.i: Indices.cpp.i
+
+.PHONY : Indices.i
+
+# target to preprocess a source file
+Indices.cpp.i:
+	$(MAKE) -f CMakeFiles\DulceriaEstructuraDeDatosII.dir\build.make CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.i
+.PHONY : Indices.cpp.i
+
+Indices.s: Indices.cpp.s
+
+.PHONY : Indices.s
+
+# target to generate assembly for a file
+Indices.cpp.s:
+	$(MAKE) -f CMakeFiles\DulceriaEstructuraDeDatosII.dir\build.make CMakeFiles/DulceriaEstructuraDeDatosII.dir/Indices.cpp.s
+.PHONY : Indices.cpp.s
+
+IndizacionCliente.obj: IndizacionCliente.cpp.obj
+
+.PHONY : IndizacionCliente.obj
+
+# target to build an object file
+IndizacionCliente.cpp.obj:
+	$(MAKE) -f CMakeFiles\DulceriaEstructuraDeDatosII.dir\build.make CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.obj
+.PHONY : IndizacionCliente.cpp.obj
+
+IndizacionCliente.i: IndizacionCliente.cpp.i
+
+.PHONY : IndizacionCliente.i
+
+# target to preprocess a source file
+IndizacionCliente.cpp.i:
+	$(MAKE) -f CMakeFiles\DulceriaEstructuraDeDatosII.dir\build.make CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.i
+.PHONY : IndizacionCliente.cpp.i
+
+IndizacionCliente.s: IndizacionCliente.cpp.s
+
+.PHONY : IndizacionCliente.s
+
+# target to generate assembly for a file
+IndizacionCliente.cpp.s:
+	$(MAKE) -f CMakeFiles\DulceriaEstructuraDeDatosII.dir\build.make CMakeFiles/DulceriaEstructuraDeDatosII.dir/IndizacionCliente.cpp.s
+.PHONY : IndizacionCliente.cpp.s
 
 OrdenesDeCompraLF.obj: OrdenesDeCompraLF.cpp.obj
 
@@ -293,9 +374,18 @@ help:
 	@echo ... DulceriaEstructuraDeDatosII
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Cliente.obj
+	@echo ... Cliente.i
+	@echo ... Cliente.s
 	@echo ... FuncionesOrdenesDeCompra.obj
 	@echo ... FuncionesOrdenesDeCompra.i
 	@echo ... FuncionesOrdenesDeCompra.s
+	@echo ... Indices.obj
+	@echo ... Indices.i
+	@echo ... Indices.s
+	@echo ... IndizacionCliente.obj
+	@echo ... IndizacionCliente.i
+	@echo ... IndizacionCliente.s
 	@echo ... OrdenesDeCompraLF.obj
 	@echo ... OrdenesDeCompraLF.i
 	@echo ... OrdenesDeCompraLF.s
