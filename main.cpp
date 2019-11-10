@@ -5,18 +5,20 @@
 #include <stdlib.h>
 #include <ProductoLV.h>
 #include "ProveedorCD.h"
+#include "OrdenesDeCompraLF.h"
+#include "FuncionesOrdenesDeCompra.h"
 
 int main(){
     Producto A;
 //
-ProveedorCD B;
-//B.AgregarProveedor();
-B.ImprimirProveedores();
-//B.BuscarProveedores();
-std::cout<<"Hola";
-//B.ModificarProveedores();
-B.EliminarProveedor();
-B.ImprimirProveedores();
-
+    ProveedorCD B;
+//
+    FuncionesOrdenesDeCompra W;
+//    W.Agregar();
+//    W.Buscar();
+W.Modificar();
+//W.Imprimir();
+//W.Eliminar();
+    W.Imprimir();
     return 0;
 }
