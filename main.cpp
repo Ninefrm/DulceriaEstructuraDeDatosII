@@ -14,11 +14,7 @@ int main(){
     ProveedorCD B;
 //
     FuncionesOrdenesDeCompra W;
-//    W.Agregar();
-//    W.Buscar();
-W.Modificar();
-//W.Imprimir();
-//W.Eliminar();
-    W.Imprimir();
+//
+
     return 0;
 }
